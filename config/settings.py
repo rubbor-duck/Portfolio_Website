@@ -27,6 +27,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+MEDIA_ROOT = BASE_DIR / "uploads/"
+MEDIA_URL = "media/"
 
 # Application definition
 
@@ -56,7 +58,10 @@ ROOT_URLCONF = 'config.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [
+            BASE_DIR / 'templates/',
+        ],
+
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
