@@ -14,6 +14,17 @@
         <br>
         <h5>Technology used:</h5>
         <p>{{ project.technology }}</p>
+        <br>
+        {% if project.repository %}
+            <a href="{{ project.repository }}" target="_blank" rel="noopener noreferrer">
+                View this project on GitHub
+        </a>
+        {% endif %}
+        <br>
+        <br>
+        <a href="http://localhost:8000/projects/" class="btn btn-primary">
+                Return Back
+        </a>
     </div>
 </div>
 {% endblock page_content %}

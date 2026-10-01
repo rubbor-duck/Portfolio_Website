@@ -7,7 +7,10 @@
     <div class="col-md-4">
         <div class="card mb-2">
             {% if project.image %}
-                <img class="card-img-top" src="{{ project.image.url }}">
+                <img class="card-img-top w-100"
+                        src="{{ project.image.url }}"
+                        alt="{{ project.title }}"
+                        style="height: 200px; object-fit: cover;">
             {% endif %}
             <div class="card-body">
                 <h5 class="card-title">{{ project.title }}</h5>
@@ -21,4 +24,7 @@
     </div>
     {% endfor %}
 </div>
+<a href="http://localhost:8000/" class="btn btn-primary">
+                Back to Home Page
+    </a>
 {% endblock %}
