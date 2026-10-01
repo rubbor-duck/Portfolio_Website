@@ -2,14 +2,11 @@
 
 I am building a website using Django as my framework so I can become more well rounded in my technical knowledge. I have never used Django until this project, so it was a great learning experience. This has helped me to realise that there are a ton of helpful tools, libraries, and frameworks that I could use for my future projects.
 
-{Provide a description the web app that you wrote. Describe how to start a test server on your computer and what website to open up to see the first page of the app.}
 I created a Portfolio web app that displays my projects that I have worked on. To start the test server, you have to open up a terminal in the folder that contains the website "Portfolio_Website". Then you need to type "python manage.py runserver" into the terminal to start the server. The url you need to type in to access the website is "http://localhost:8000/". This will take you to the introduction page, where you can then nagivate to the projects page.
 
 My purpose for writing this software is to learn about how to create websites and how to host them. I need to become more well rounded in my coding knowledge, so learning how to make web apps is my first step in this journey.
 
-{Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the software running (starting the server and navigating through the web pages) and a walkthrough of the code.}
-
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/OWMkzAJ5qXw)
 
 # Web Pages
 
@@ -21,21 +18,21 @@ The project details page also dynamically pulls info from each project's data fr
 
 # Development Environment
 
-Tools used: Django and Codex
-Disclaimer: Codex was used to help set up the framework of Django and for debugging.
+* Tools used: Django and Codex
 
-Language: Python
-Libraries: Bootstrap
+* Disclaimer: Codex was used to help set up the framework of Django and for debugging.
+
+* Language: Python
+
+* Libraries: Bootstrap
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
-* [Web Site Name](https://realpython.com/get-started-with-django-1/#start-your-first-django-project)
-* [Web Site Name](https://www.geeksforgeeks.org/python/python-web-development-django/)
+* [RealPython](https://realpython.com/get-started-with-django-1/#start-your-first-django-project)
+* [GeeksForGeeks](https://www.geeksforgeeks.org/python/python-web-development-django/)
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
 * Add a good background image to help bring more life to the page
 * Improve the project cards so they look more uniform
 * Be able to add more photos for each project, so you can scroll between them
