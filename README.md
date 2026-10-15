@@ -2,9 +2,13 @@
 
 I am building a website using Django as my framework so I can become more well rounded in my technical knowledge. I have never used Django until this project, so it was a great learning experience. This has helped me to realise that there are a ton of helpful tools, libraries, and frameworks that I could use for my future projects.
 
+I used a tutorial to help me learn Django, but I still wrote most of the code myself. I wrote the home page by myself. I added the text, formating, return button, and the url linking with the other pages. I wrote the code to connect the webpages together, and I represented that code via a button for each of the pages.
+
 I created a Portfolio web app that displays my projects that I have worked on. To start the test server, you have to open up a terminal in the folder that contains the website "Portfolio_Website". Then you need to type "python manage.py runserver" into the terminal to start the server. The url you need to type in to access the website is "http://localhost:8000/". This will take you to the introduction page, where you can then nagivate to the projects page.
 
-My purpose for writing this software is to learn about how to create websites and how to host them. I need to become more well rounded in my coding knowledge, so learning how to make web apps is my first step in this journey.
+My purpose for writing this software is to learn about how to create websites and how to host them. I learned how to write if statements and for loops inside of Django. I learned how to add webpages to the project, how to link the urls of the webpages, how to add models that the webpage can use to display information, and how to write functions in view.py that the webpage can use to organize models into readable parts of a webpage.
+
+I am able to understand all of the code that I wrote and understand how to implement it.
 
 [Software Demo Video](https://youtu.be/OWMkzAJ5qXw)
 
@@ -20,7 +24,7 @@ The project details page also dynamically pulls info from each project's data fr
 
 * Tools used: Django and Codex
 
-* Disclaimer: Codex was used to help set up the framework of Django and for debugging.
+* Disclaimer: Codex was used to help set up the extensions needed to start the project. AI never wrote any code inside the project.
 
 * Language: Python
 
